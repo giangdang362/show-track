@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.wrapper-header {
+    position: relative;
+}
+.header {
+    height: 768px;
+    width: 80%;
+    /* line-height: 50px; */
+    margin: 0 auto;
+}
+.phone-mockup {
+    position: absolute;
+    top: 135px;
+    left: 60%;
+    right: 18.5%;
+    z-index: 1;
+}
+.logo span:last-child {
+    color: #540CFA;
+}
+.background-nav {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    z-index: -1;
+}
+.header .navbar {
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.square-shape-top {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 40px;
+    top: -132px;
+    right: -280px;
+    z-index: -2;
+}
+.shape-orange{
+    background: linear-gradient(135deg, #F2C314 0%, #FC3832 100%);
+    opacity: 0.9;
+    transform: rotate(65deg);
+}
+.shape-purple {
+    background: linear-gradient(135deg, #9C09DB 0%, #1C0FD7 100%);
+    opacity: 0.9;
+    transform: rotate(45deg);
+}
+.nav-list-block .nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-list li a {
+    padding: 0 30px;
+    text-decoration: none;
+    color: #000;
+}
+.login-block {
+    display: flex;
+    justify-content: space-around;
+}
+.login-block .login {
+    margin-right: 30px;
+}
+.login-block .get-started button {
+    border: none;
+    background-color: #540CFA;
+    color: #FFFFFF;
+    height: 32px;
+    width: 102px;
+    border-radius: 4px;
+}
+/* main-header */
+.main-header {
+    width: 60%;
+    margin-top: 150px;
+}
+.main-header .header-title {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 72px;
+}
+.main-header .header-content {
+    width: 68%;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 30px 0;
+}
+.email-tracking {
+    width: 75%;
+    display: flex;
+    height: 54px;
+    line-height: 24px;
+}
+.wrap-input-email {
+    border: 1px solid #FFFFFF;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    margin-right: 1px;
+    border-radius: 2px;
+}
+.wrap-input-email:hover {
+    border: 1px solid #ccc;
+}
+.input-email input:focus {
+    border: none;
+}
+.input-email {
+    padding: 2px 4px 4px 4px;
+}
+.input-email span {
+    color: #540CFA;
+}
+.wrap-input-email .input-email span {
+    display: block;
+}
+.wrap-input-email input {
+    border: none;
+    height: 24px;
+    padding: 1px;
+    width: 100%;
+}
+.wrap-input-email input:focus {
+    outline: none;
+}
+.start-tracking button {
+    width: 142px;
+    height: 100%;
+    border: none;
+    background-color: #540CFA;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.start-tracking button:hover {
+    cursor: pointer;
+    background-color: #540CBA;
+}
+.compatible-with {
+    margin-top: 130px;
+    width: 75%;
+}
+.compatible-with-title {
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.3;
+    margin-bottom: 20px;
+}
+.compatible-with-logo {
+    display: flex;
+    justify-content: space-between;
+}
+.showtrack-feature {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: 542px;
+    background-color: #F2C314;
+    margin-top: 150px;
+}
+.square-shape-blue {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: -230px;
+    left: -400px;
+    background: linear-gradient(135deg, #32FBFC 0%, #3214F2 100%);
+    border-radius: 40px;
+    opacity: 0.9;
+    transform: rotate(45deg);
+}
+/* Css Gerneral */
+.main-title-center {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 63px;
+    text-align: center;
+}
+.main-content-center {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    opacity: 0.8;
+}
+.main-title-left {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 50px;
+}
+.main-content-left {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.application-feature-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+}
