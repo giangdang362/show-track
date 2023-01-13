@@ -82,6 +82,7 @@
 .login-block .get-started button {
     border: none;
     background-color: #540CFA;
+    font-size: 14px;
     color: #FFFFFF;
     height: 32px;
     width: 102px;
@@ -125,7 +126,7 @@
     border: none;
 }
 .input-email {
-    padding: 2px 4px 4px 4px;
+    padding: 2px 4px 4px 8px;
 }
 .input-email span {
     color: #540CFA;
@@ -207,6 +208,9 @@
     border-radius: 40px;
     opacity: 0.9;
     transform: rotate(45deg);
+}
+.phone-header {
+    display: none;
 }
 /* Css Gerneral */
 .main-title-center {

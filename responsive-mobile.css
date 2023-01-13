@@ -1,0 +1,40 @@
+@media screen and (max-width:375px) {
+    .nav-list-block {
+        display: none;
+    }
+    .login-block .login {
+        display: none;
+    }
+    .main-header {
+        width: 100%;
+        margin-top: 40px;
+    }
+    /* Gerneral Css */
+    .main-title-center {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .main-content-center {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .header .phone-mockup {
+        display: none;
+    }
+    .square-shape-top {
+        display: none;
+    }
+    .phone-header .square-orange {
+        right: -55%;
+        position: absolute;
+        width: 425px;
+        height: 425px;
+        background: linear-gradient(315deg, #1C0FD7 1.79%, #9C09DB 100%);
+        opacity: 0.9;
+        border-radius: 20px;
+        transform: rotate(45deg);
+    }
+    .phone-header .square-purple {
+
+    }
+}
