@@ -21,6 +21,12 @@
     right: 18.5%;
     z-index: 1;
 }
+.login-block .login:hover,
+.nav-list li:hover,
+.navbar .logo:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
 .logo span:last-child {
     color: #540CFA;
 }
@@ -99,8 +105,7 @@
     margin: 30px 0;
 }
 .email-tracking {
-    margin: 0 auto;
-    width: 75%;
+    width: 62%;
     display: flex;
     height: 54px;
     line-height: 24px;
@@ -147,7 +152,9 @@
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
-.start-tracking button:hover {
+.start-tracking button:hover,
+.login-block .get-started button:hover,
+.read-more-btn button:hover {
     cursor: pointer;
     background-color: #540CBA;
 }
@@ -211,6 +218,7 @@
 .application-feature {
     margin-top: 80px;
     display: flex;
+    gap: 100px;
 }
 .feature .main-title-center,
 .feature .main-content-center {
@@ -268,15 +276,27 @@
     border: none;
     color: #540CFA;
 }
+.learn-more:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
 /* film-carosel */
+.wrap-film-carousel {
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    place-items: center;
+    overflow: hidden;
+}
 .film-carosel {
     margin-top: 140px;
     margin-bottom: 140px;
     display: flex;
+    align-items: center;
     height: 330px;
-    width: calc(220px * 9);
-    overflow: hidden;
-    animation: scroll-carosel 5s linear infinite alternate;
+    width: calc(220px * 10);
+    animation: scroll-carosel 5s linear infinite;
 }
 @keyframes scroll-carosel {
     0% {
@@ -290,7 +310,7 @@
     width: 220px;
 }
 .item-film-carosel a img{
-    width: 100%;
+    width: 220px;
 }
 /* easy-to-use */
 .easy-to-use {
@@ -435,6 +455,7 @@
     font-size: 12px;
     opacity: 0.6;
 }
+/* getting started */
 .wrap-get-started {
     display: flex;
     height: 640px;
@@ -450,10 +471,15 @@
     text-align: center;
     font-size: 18px;
     opacity: 0.8;
+    margin-bottom: 14px;
 }
 .get-started .main-content-center {
     margin-top: 16px;
     margin-bottom: 50px;
+}
+.get-started .email-tracking {
+    width: 75%;
+    margin: 0 auto;
 }
 /* footer */
 .footer {
