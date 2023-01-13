@@ -172,6 +172,24 @@
     display: flex;
     justify-content: space-between;
 }
+.compatible-with-logo .logo-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+}
+.compatible-with-logo .logo-img:first-child {
+    width: 94px;
+}
+.compatible-with-logo .logo-img:last-child {
+    width: 96px;
+}
+.logo-img img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+}
 .showtrack-feature {
     width: 80%;
     margin: 0 auto;
