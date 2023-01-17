@@ -11,9 +11,61 @@
 .header {
     height: 768px;
     width: 80%;
-    /* line-height: 50px; */
     margin: 0 auto;
 }
+.navbar-fix li a {
+    text-decoration: none;
+    color: #000;
+}
+.navbar-fix {
+    display: flex;
+    position: absolute;
+    top: -55px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    box-shadow: 1px 2px 4px 1px #ccc;
+    position: fixed;
+    background-color: #ebebeb;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    z-index: 5;
+    transition: 0.5s;
+}
+#go-to-top {
+    display: none;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    opacity: 0.7;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(204, 204, 204);
+    z-index: 1;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 1px 1px 4px 3px #aaaaaa;
+    transition-duration: 0.5s;
+}
+#go-to-top div {
+    opacity: 0.7;
+}
+.menu-btn {
+    display: none;
+    font-size: 36px;
+    color: #540CFA;
+    align-items: center;
+}
+#close-menu {
+    display: none;
+    font-size: 30px;
+    color: #540CFA;
+    align-items: center;
+}
+
 .phone-mockup {
     position: absolute;
     top: 135px;
@@ -24,6 +76,7 @@
 .login-block .login:hover,
 .nav-list li:hover,
 .navbar .logo:hover {
+    transition: 0.3s;
     opacity: 0.7;
     cursor: pointer;
 }
@@ -116,11 +169,14 @@
     display: block;
     width: 100%;
     font-size: 15px;
-    margin-right: 1px;
     border-radius: 2px;
 }
 .wrap-input-email:hover {
     border: 1px solid #ccc;
+    transition: 0.3s;
+}
+.input-email input {
+    font-size: 16px;
 }
 .input-email input:focus {
     border: none;
@@ -129,6 +185,7 @@
     padding: 2px 4px 4px 8px;
 }
 .input-email span {
+    font-size: 12px;
     color: #540CFA;
 }
 .wrap-input-email .input-email span {
@@ -144,7 +201,7 @@
     outline: none;
 }
 .start-tracking button {
-    width: 142px;
+    width: 140px;
     height: 100%;
     border: none;
     background-color: #540CFA;
@@ -156,6 +213,7 @@
 .start-tracking button:hover,
 .login-block .get-started button:hover,
 .read-more-btn button:hover {
+    transition: 0.3s;
     cursor: pointer;
     background-color: #540CBA;
 }
@@ -299,6 +357,7 @@
     color: #540CFA;
 }
 .learn-more:hover {
+    transition: 0.3s;
     cursor: pointer;
     opacity: 0.7;
 }
@@ -320,6 +379,9 @@
     width: calc(220px * 10);
     animation: scroll-carosel 5s linear infinite;
 }
+.film-carosel:hover {
+    animation-play-state: paused;
+}
 @keyframes scroll-carosel {
     0% {
         transform: translateX(0);
@@ -329,7 +391,13 @@
     }
 }
 .item-film-carosel{
+    
     width: 220px;
+}
+.item-film-carosel a img:hover {
+    transform: translateY(-20px);
+    height: auto;
+    transition: 0.3s all ease-in-out;
 }
 .item-film-carosel a img{
     width: 220px;

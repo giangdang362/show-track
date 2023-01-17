@@ -5,10 +5,21 @@
     <meta name="description" http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShowTrack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./responsive-mobile.css">
+    <script src="./main.js"></script>
 </head>
 <body>
+    <div id="go-to-top" >
+        <div onclick="handleGoToTop()" class="fa fa-fw fa-arrow-up">
+        </div>
+    </div>
+    <div id="navbarFix" class="navbar-fix">
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Get Started</a></li>
+    </div>
     <div class="wrapper-header">
         <div class="background-nav">
         </div>
@@ -20,7 +31,7 @@
             <div class="square-shape-top shape-purple"></div>
             <nav class="navbar">
                 <div class="logo">
-                    <span>Show</span><span>Tracks</span>
+                    <span>Show</span><span>Trackr</span>
                 </div>
                 <div class="nav-list-block">
                     <ul class="nav-list">
@@ -75,8 +86,9 @@
             <div class="phone-mockup-mobile">
                 <img src="./images/iphone-x-mockup.png" alt="iphone-x-mockup">
             </div>
-            <div class="square-orange"></div>
-            <div class="square-purple"></div>
+            <div class="left-square-blue"></div>
+            <div class="right-square-orange"></div>
+            <div class="right-square-purple"></div>
         </div>
     </div>
     <div class="showtrack-feature">
@@ -164,9 +176,6 @@
         </div>
     </div>
     <div class="easy-to-use">
-        <div class="mobile-demo-app">
-            <img src="./images/easy-to-use/iphone-x-mockup.png" alt="iphone-x-mockup">
-        </div>
         <div class="easy-to-use-main">
             <div class="main-title-left">
                 Easy-to-use interfaces on every platform
@@ -194,6 +203,9 @@
         </div>
         <div class="easy-to-use-example">
             <img src="./images/easy-to-use/example-showtrack.png" alt="example-showtrack">
+        </div>
+        <div class="mobile-demo-app">
+            <img src="./images/easy-to-use/iphone-x-mockup.png" alt="iphone-x-mockup">
         </div>
     </div>
     <div class="community">
