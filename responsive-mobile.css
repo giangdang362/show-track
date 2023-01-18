@@ -762,3 +762,29 @@
         font-size: 11px;
     }
 }
+@media screen and (max-width: 320px) {
+    .phone-header {
+        height: 580px;
+    }
+    .header {
+        height: 524px;
+    }
+    .phone-header .left-square-blue {
+        top: 412px;
+        left: -80px;
+        width: 130px;
+        height: 130px;
+    }
+    .phone-header .right-square-orange {
+        top: 90px;
+        right: -33%;
+        width: 250px;
+        height: 250px;
+    }
+    .phone-header .right-square-purple {
+        top: 87px;
+        right: -41%;
+        width: 250px;
+        height: 250px;
+    }
+}
